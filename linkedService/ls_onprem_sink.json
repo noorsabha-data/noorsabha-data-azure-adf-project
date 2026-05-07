@@ -1,0 +1,12 @@
+{
+	"name": "ls_onprem_sink",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://noordatalakestorage.dfs.core.windows.net/",
+			"encryptedCredential": "*****"
+		}
+	}
+}

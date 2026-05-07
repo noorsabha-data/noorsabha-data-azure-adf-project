@@ -1,0 +1,21 @@
+{
+	"name": "ds_flight_bookings_src",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_onprem_sink",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sql_source",
+				"fileSystem": "bronze"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

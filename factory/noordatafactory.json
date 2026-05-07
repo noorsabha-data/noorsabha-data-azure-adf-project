@@ -1,0 +1,15 @@
+{
+	"name": "noordatafactory",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e053273c-c950-443c-92d0-c9a4ebb674a7",
+		"tenantId": "c597655e-3c1a-4466-9419-52da43668195"
+	}
+}
