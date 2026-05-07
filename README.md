@@ -28,6 +28,12 @@ On-Prem File System (via Self-hosted Integration Runtime)
 
 ---
 
+## 🧭 Architecture Diagram
+
+![ADF Architecture](ADF_Screenshots/01_architecture/adf-architecture.png)
+
+---
+
 ## 🔄 Pipeline Flow
 ### 1️⃣ Parent Orchestration Pipeline
 - Controls execution of all child pipelines
