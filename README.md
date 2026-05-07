@@ -9,7 +9,7 @@ The goal of this project is to showcase real-world ETL workflows, orchestration,
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](diagrams/azure-data-factory-architecture.png)
+- Architecture Diagram
 
 ---
 
