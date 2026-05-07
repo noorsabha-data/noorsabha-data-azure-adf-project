@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "noordatafactory"
+		},
+		"ls_AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"ls_onprem_sink_accountKey": {
+			"value": ""
+		},
+		"ls_windows_vm_password": {
+			"value": ""
+		},
+		"ls_AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "noordbserver.database.windows.net"
+		},
+		"ls_AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "noordatabase"
+		},
+		"ls_AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "username"
+		},
+		"ls_api_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"ls_onprem_sink_properties_typeProperties_url": {
+			"value": "https://noordatalakestorage.dfs.core.windows.net/"
+		},
+		"ls_windows_vm_properties_typeProperties_host": {
+			"value": "C:\\ADF_Project"
+		},
+		"ls_windows_vm_properties_typeProperties_userId": {
+			"value": "username"
+		}
+	}
+}
